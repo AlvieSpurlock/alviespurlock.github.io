@@ -26,7 +26,7 @@ You expand a tiny settlement and manage limited space as your town grows.
 # **[Scorchlet](https://madteapartydevelopment.itch.io/scorchlet)**
 A creature‑raising prototype focused on growth, stats, and interaction.  
 You raise a small dragon‑like creature and explore how its attributes evolve over time.
-<br><img src="../Images/scorchlet2.png" width="400"><br>
+<br><img src="../Images/scorchlet2.png" width="800"><br>
 <img src="../Images/scorchlet.png" width="400"><br>
 <div style="text-align: center;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/u4AS8GVXCNI?si=uR1EygKVddr5bBis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
