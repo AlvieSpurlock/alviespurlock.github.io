@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/assets/css/style.css">
+
 # **Alvie Spurlock**
 ### Python Developer • C++ Systems Engineer • Game Developer
 
