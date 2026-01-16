@@ -129,24 +129,39 @@ h1, h2, h3, h4, h5, h6 {
    MEDIAROW FORMAT
    ============================================================ */
 .media-row {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 16px;
   margin: 20px 0;
 }
 
-/* Default: two per row */
-.media-row img,
-.media-row iframe {
-  flex: 1 1 calc(50% - 16px);
-  max-width: calc(50% - 16px);
+/* Column containers */
+.imagecol,
+.vidcol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-/* If only one item exists, center it */
-.media-row:only-child,
-.media-row > :only-child {
+/* Default media behavior */
+.imagecol img,
+.vidcol img,
+.vidcol iframe {
+  width: 100%;
+  height: auto;
+}
+
+/* If vidcol has two videos, they split the column */
+.vidcol.two-videos iframe {
+  width: 100%;
+  height: auto;
+}
+
+/* If vidcol has only one item, keep natural size */
+.vidcol.single iframe,
+.vidcol.single img {
+  width: auto;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  flex: 0 1 auto;       /* shrink to natural size */
-  max-width: 100%;      /* prevent weird scaling */
 }
