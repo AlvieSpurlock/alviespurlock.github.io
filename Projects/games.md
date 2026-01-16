@@ -1,3 +1,13 @@
+<link rel="stylesheet" href="/assets/css/style.css">
+<div class="navbar">
+  <div class="nav-right">
+    <a href="/index.html">Home</a>
+    <a href="/Projects/cpp.html">C++ Projects</a>
+    <a href="/Projects/games.html">Game Projects</a>
+    <a href="/Projects/python.html">Python Projects</a>
+    <a href="/about.html">About Me</a>
+  </div>
+</div>
 # 🎮 Game Projects
 A collection of prototypes and gameplay experiments.  
 Each project explores mechanics, systems, or player interaction in a focused, iterative way.
@@ -42,7 +52,7 @@ Semi-open world RPG with deep systems and narrative<br>
 <img src="../Images/df2.png" width="350"> <img src="../Images/df1.png" width="350"><br>
 <img src="../Images/df3.png" width="350"> <img src="../Images/df4.png" width="350"><br>
  <img src="../Images/df5.png" width="350"> <img src="../Images/df6.png" width="350"><br>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c4CSSQL0MRI?si=3rQWP3vf2MuzjCxt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
 
 ---
 
