@@ -23,7 +23,7 @@ body {
 .navbar {
   width: 100%;
   background: #1a1a1a; /* solid dark grey */
-  padding: 14px 20px;
+  padding: 14px 32px; /* was 14px 20px */
   display: flex;
   justify-content: center; /* centers the name */
   align-items: center;
@@ -51,6 +51,7 @@ body {
   margin-left: auto;
   display: flex;
   gap: 18px;
+   padding-right: 12px;
 }
 
 /* Light grey links with black outline */
@@ -119,6 +120,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 1.2em;
   margin-bottom: 0.4em;
 }
+
 
 
 
