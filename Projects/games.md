@@ -21,7 +21,11 @@ Each project explores mechanics, systems, or player interaction in a focused, it
 
 # **We Built This City: Farmer Edition**
 <img src="../Images/wbtc.png" width="400">
-<iframe width="560" height="315"src="https://www.youtube.com/embed/o-LALVxg8F0?si=OONDBjha2vnRV3iz"frameborder="0"allowfullscreen></iframe>
+<iframe width="560" height="315"
+  src="https://www.youtube.com/embed/o-LALVxg8F0?si=OONDBjha2vnRV3iz"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
 
 ---
 
@@ -32,7 +36,6 @@ A creature‑raising prototype focused on growth, stats, and interaction.
 You raise a small dragon‑like creature and explore how its attributes evolve over time.
 
 <!-- Full-width standalone image -->
-
 <img src="../Images/scorchlet2.png" width="800">
 
 <div class="media-row">
@@ -45,6 +48,7 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
       frameborder="0"
       allowfullscreen>
     </iframe>
+
     <iframe width="560" height="315"
       src="https://www.youtube.com/embed/r8rPklq1FUg?si=539cKCF-CphlYqFN"
       frameborder="0"
@@ -53,15 +57,17 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
   </div>
 </div>
 
-
 ---
 
 <br><br>
 
 # **Hero Impervious**
 <img src="../Images/hi.png" width="400">
-<iframe width="560" height="315"src="https://www.youtube.com/embed/kiyJKhMB2tg?si=x_0VCI41NMRU7MLo"frameborder="0"allowfullscreen></iframe>
-
+<iframe width="560" height="315"
+  src="https://www.youtube.com/embed/kiyJKhMB2tg?si=x_0VCI41NMRU7MLo"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
 
 ---
 
@@ -82,8 +88,11 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
   </div>
 </div>
 
-<iframe width="560" height="315"src="https://www.youtube.com/embed/36LRIM3dotg?si=ffu-HENLCXthcDHh"
-  frameborder="0"allowfullscreen></iframe>
+<iframe width="560" height="315"
+  src="https://www.youtube.com/embed/36LRIM3dotg?si=ffu-HENLCXthcDHh"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
 
 ---
 
@@ -97,6 +106,7 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
     <img src="../Images/ai2.png" width="350">
   </div>
 </div>
+
 <img src="../Images/ai3.png" width="350">
 
 ---
@@ -111,11 +121,12 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
     <img src="../Images/sh2.png" width="350">
   </div>
 </div>
-        <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/7i0oiYfdz24?si=tDD-VGNQmZZtooPC"
-      frameborder="0"
-      allowfullscreen>
-    </iframe>
+
+<iframe width="560" height="315"
+  src="https://www.youtube.com/embed/7i0oiYfdz24?si=tDD-VGNQmZZtooPC"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
 
 ---
 
@@ -140,7 +151,12 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
     <img src="../Images/df6.png" width="350">
   </div>
 </div>
-<iframe width="560" height="315"src="https://www.youtube.com/embed/c4CSSQL0MRI?si=3rQWP3vf2MuzjCxt"frameborder="0"allowfullscreen></iframe>
+
+<iframe width="560" height="315"
+  src="https://www.youtube.com/embed/c4CSSQL0MRI?si=3rQWP3vf2MuzjCxt"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
 
 ---
 
