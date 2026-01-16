@@ -18,6 +18,60 @@ body {
   font-family: sans-serif;
 }
 /* ============================================================
+   CUSTOM NAVBAR
+   ============================================================ */
+.navbar {
+  width: 100%;
+  background: #1a1a1a; /* solid dark grey */
+  padding: 14px 20px;
+  display: flex;
+  justify-content: center; /* centers the name */
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Centered name */
+.nav-center {
+  position: absolute;
+  left: 100%;
+  transform: translateX(-50%);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow:
+    0 0 2px #000,
+    0 0 4px #000,
+    2px 2px 6px rgba(0,0,0,0.8);
+}
+
+/* Right‑aligned links */
+.nav-right {
+  margin-left: auto;
+  display: flex;
+  gap: 18px;
+}
+
+/* Light grey links with black outline */
+.nav-right a {
+  color: #d0d0d0;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  transition: top 0.15s ease, color 0.15s ease;
+  text-shadow:
+    0 0 2px #000,
+    0 0 4px #000,
+    2px 2px 6px rgba(0,0,0,0.8);
+}
+
+.nav-right a:hover {
+  top: 2px;
+  color: #c59cff;
+}
+
+/* ============================================================
    IMAGE HOVER POP
    ============================================================ */
 img {
@@ -65,6 +119,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 1.2em;
   margin-bottom: 0.4em;
 }
+
 
 
 
