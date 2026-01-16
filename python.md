@@ -44,5 +44,5 @@ These will be added as they’re completed.
 ## 🔙 Back to Home 
 - [Home](home.md)
 ## Other Project Pages
-- [C++](Cpp.md)
+- [C++](cpp.md)
 - [Games](games.md)
