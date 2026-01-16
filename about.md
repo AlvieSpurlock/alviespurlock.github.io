@@ -42,6 +42,6 @@ I believe in:
 ## 🔙 Back to Home 
 - [Home](home.md)
 ## Other Project Pages
-- [Python](Projects\python.md)
-- [C++](Projects\cpp.md)
-- [Games](Projects\games.md)
+- [Python](Projects/python.md)
+- [C++](Projects/cpp.md)
+- [Games](Projects/games.md)
