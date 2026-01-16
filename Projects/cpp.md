@@ -1,11 +1,11 @@
 <link rel="stylesheet" href="/assets/css/style.css">
 <div class="navbar">
   <div class="nav-right">
-    <a href="../index.html">Home</a>
-    <a href="cpp.html">C++ Projects</a>
-    <a href="games.html">Game Projects</a>
-    <a href="python.html">Python Projects</a>
-    <a href="../about.html">About Me</a>
+    <a href="/index.html">Home</a>
+    <a href="/Projects/cpp.html">C++ Projects</a>
+    <a href="/Projects/games.html">Game Projects</a>
+    <a href="/Projects/python.html">Python Projects</a>
+    <a href="/about.html">About Me</a>
   </div>
 </div>
 # C++ Projects
