@@ -27,7 +27,8 @@ Everything here links directly to my GitHub projects and itch.io builds.
 ---
 
 ### **C++**
-- **[Monte Carlo Combat Simulator](https://github.com/AlvieSpurlock/TTRPGCombatBalanceSimulator)**: A systems‑level simulation engine built in C++ with explicit turn order, HP validation, and win/loss return codes.  
+- **[Monte Carlo Combat Simulator](https://github.com/AlvieSpurlock/TTRPGCombatBalanceSimulator)**: A systems‑level simulation engine built in C++ with explicit turn order, HP validation, and win/loss return codes.
+- **[Asset Logger](https://github.com/AlvieSpurlock/AssetLogger)**: A console based Indie Dev tool for Steam Submissions and Asset Inventory. It guides you through adn takes input of your assets, their location, their purpose, who made them, their platform, and your license type then saves it into a structured .csv.
 
 ---
 
