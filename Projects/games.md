@@ -19,7 +19,7 @@ Each project explores mechanics, systems, or player interaction in a focused, it
 
 <br><br>
 
-# **[We Built This City: Farmer Edition](https://madteapartydevelopment.itch.io/we-built-this-city-farmer)** - Solo
+# **[We Built This City: Farmer Edition](https://madteapartydevelopment.itch.io/we-built-this-city-farmer){:target="_blank" rel="noopener noreferrer"}** - Solo
 A simple, farming sim I built as a challenge. I wanted to do it in a week. I used tick, I really shouldn't have, but I still think the game is beautiful.<br>
 <img src="../Images/wbtc.png" width="400">
 <iframe width="560" height="315"
@@ -32,7 +32,7 @@ A simple, farming sim I built as a challenge. I wanted to do it in a week. I use
 
 <br><br>
 
-# **[Scorchlet](https://madteapartydevelopment.itch.io/scorchlet)** - Solo
+# **[Scorchlet](https://madteapartydevelopment.itch.io/scorchlet){:target="_blank" rel="noopener noreferrer"}** - Solo
 Scorchlet is a cute little dragon that you get to watch grow!
 You interact with your dragon and watch it live it's life.<br>
 You can feed it and tickle it too!<br>
@@ -61,7 +61,7 @@ It is also localized to 12 Languages(including English).<br>
 
 <br><br>
 
-# **[Hero Impervious](https://madteapartydevelopment.itch.io/hero-impervious)** - Solo
+# **[Hero Impervious](https://madteapartydevelopment.itch.io/hero-impervious){:target="_blank" rel="noopener noreferrer"}** - Solo
 This game is a twist on a typical RPG with some fascinating Simulation/Arcade aspects. <br>
 I built it to be a rage game. <br>
 It is essentially a giant ball physicals simulator.<br>
@@ -139,7 +139,7 @@ A stylized, fps based around halloween with a Terror Comic vibe.<br>
 
 ---
 
-### **[Drake Forged](https://spicergames.com/drake-forged-main-page)** - Team
+### **[Drake Forged](https://spicergames.com/drake-forged-main-page){:target="_blank" rel="noopener noreferrer"}** - Team
 A semi-open world fantasy rpg with a deep narrative and even deeper mechanics.<br>
 <div class="media-row">
   <div class="imagecol">
