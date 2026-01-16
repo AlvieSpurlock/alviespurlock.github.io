@@ -29,15 +29,18 @@ You control a resilient hero navigating encounters in a stylized environment.
 These are planned or in‑progress concepts that will be added as they develop:
 
 - **Echoes of a Dream** — Solo<br>
-Psychological horror
-
+Psychological horror<br>
+<img src="Images/eod1.png" width="350"> <img src="Images/eod2.png" width="350"><br>
 - **Afterimage** — Solo/Halted<br>
-Speedster, action RPG  
+Speedster, action RPG<br>
+<img src="Images/ai1.png" width="350"> <img src="Images/ai2.png" width="350"> <img src="Images/ai3.png" width="350"><br> 
 - **Sam Hain** — Solo/Postponed<br>
-Stylized, FPS based around Halloween with Terror Comic themes
-
+Stylized, FPS based around Halloween with Terror Comic themes<br>
+<img src="Images/sh1.png" width="350"> <img src="Images/sh2.png" width="350"><br>
 - **Drake Forged** — Team<br>
-Semi-open world RPG with deep systems and narrative
+Semi-open world RPG with deep systems and narrative<br>
+<img src="Images/ai1.png" width="350"> <img src="Images/ai1.png" width="350"> <img src="Images/ai3.png" width="350"><br> 
+<img src="Images/sh1.png" width="350"> <img src="Images/sh2.png" width="350"><br>
 
 
 ---
