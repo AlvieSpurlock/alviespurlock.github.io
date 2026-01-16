@@ -35,7 +35,6 @@ Each project explores mechanics, systems, or player interaction in a focused, it
 A creature‑raising prototype focused on growth, stats, and interaction.  
 You raise a small dragon‑like creature and explore how its attributes evolve over time.
 
-<!-- Full-width standalone image -->
 <img src="../Images/scorchlet2.png" width="800">
 
 <div class="media-row">
@@ -88,11 +87,13 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
   </div>
 </div>
 
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/36LRIM3dotg?si=ffu-HENLCXthcDHh"
-  frameborder="0"
-  allowfullscreen>
-</iframe>
+<div style="text-align:center;">
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/36LRIM3dotg?si=ffu-HENLCXthcDHh"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
 
 ---
 
@@ -107,7 +108,9 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
   </div>
 </div>
 
-<img src="../Images/ai3.png" width="350">
+<div style="text-align:center;">
+  <img src="../Images/ai3.png" width="800">
+</div>
 
 ---
 
@@ -122,11 +125,13 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
   </div>
 </div>
 
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/7i0oiYfdz24?si=tDD-VGNQmZZtooPC"
-  frameborder="0"
-  allowfullscreen>
-</iframe>
+<div style="text-align:center;">
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/7i0oiYfdz24?si=tDD-VGNQmZZtooPC"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
 
 ---
 
@@ -152,11 +157,13 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
   </div>
 </div>
 
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/c4CSSQL0MRI?si=3rQWP3vf2MuzjCxt"
-  frameborder="0"
-  allowfullscreen>
-</iframe>
+<div style="text-align:center;">
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/c4CSSQL0MRI?si=3rQWP3vf2MuzjCxt"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
 
 ---
 
