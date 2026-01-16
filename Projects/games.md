@@ -25,7 +25,6 @@ Each project explores mechanics, systems, or player interaction in a focused, it
   <div class="imagecol">
     <img src="../Images/wbtc.png" width="400">
   </div>
-
   <div class="vidcol single">
     <iframe width="560" height="315"
       src="https://www.youtube.com/embed/o-LALVxg8F0?si=OONDBjha2vnRV3iz"
@@ -76,7 +75,6 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
   <div class="imagecol">
     <img src="../Images/hi.png" width="400">
   </div>
-
   <div class="vidcol single">
     <iframe width="560" height="315"
       src="https://www.youtube.com/embed/kiyJKhMB2tg?si=x_0VCI41NMRU7MLo"
@@ -100,17 +98,9 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
   <div class="imagecol">
     <img src="../Images/eod1.png" width="350">
   </div>
-
   <div class="vidcol single">
     <img src="../Images/eod2.png" width="350">
-  </div>
-</div>
-
-<div class="media-row">
-  <div class="imagecol"></div>
-
-  <div class="vidcol single">
-    <iframe width="560" height="315"
+     <iframe width="560" height="315"
       src="https://www.youtube.com/embed/36LRIM3dotg?si=ffu-HENLCXthcDHh"
       frameborder="0"
       allowfullscreen>
@@ -126,16 +116,8 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
   <div class="imagecol">
     <img src="../Images/ai1.png" width="350">
   </div>
-
   <div class="vidcol single">
     <img src="../Images/ai2.png" width="350">
-  </div>
-</div>
-
-<div class="media-row">
-  <div class="imagecol"></div>
-
-  <div class="vidcol single">
     <img src="../Images/ai3.png" width="350">
   </div>
 </div>
@@ -148,17 +130,9 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
   <div class="imagecol">
     <img src="../Images/sh1.png" width="350">
   </div>
-
   <div class="vidcol single">
     <img src="../Images/sh2.png" width="350">
-  </div>
-</div>
-
-<div class="media-row">
-  <div class="imagecol"></div>
-
-  <div class="vidcol single">
-    <iframe width="560" height="315"
+        <iframe width="560" height="315"
       src="https://www.youtube.com/embed/7i0oiYfdz24?si=tDD-VGNQmZZtooPC"
       frameborder="0"
       allowfullscreen>
@@ -174,37 +148,27 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
   <div class="imagecol">
     <img src="../Images/df2.png" width="350">
   </div>
-
   <div class="vidcol single">
     <img src="../Images/df1.png" width="350">
-  </div>
-</div>
-
-<div class="media-row">
-  <div class="imagecol">
     <img src="../Images/df3.png" width="350">
   </div>
+</div>
 
-  <div class="vidcol single">
+<div class="media-row">
+  <div class="imagecol">
     <img src="../Images/df4.png" width="350">
+  </div>
+  <div class="vidcol single">
+    <img src="../Images/df5.png" width="350">
   </div>
 </div>
 
 <div class="media-row">
   <div class="imagecol">
-    <img src="../Images/df5.png" width="350">
-  </div>
-
-  <div class="vidcol single">
     <img src="../Images/df6.png" width="350">
   </div>
-</div>
-
-<div class="media-row">
-  <div class="imagecol"></div>
-
   <div class="vidcol single">
-    <iframe width="560" height="315"
+        <iframe width="560" height="315"
       src="https://www.youtube.com/embed/c4CSSQL0MRI?si=3rQWP3vf2MuzjCxt"
       frameborder="0"
       allowfullscreen>
