@@ -40,18 +40,17 @@ You expand a tiny settlement and manage limited space as your town grows.
 A creature‑raising prototype focused on growth, stats, and interaction.  
 You raise a small dragon‑like creature and explore how its attributes evolve over time.
 
-<div class="media-row">
-  <img src="../Images/scorchlet2.png" width="800">
-  <img src="../Images/scorchlet.png" width="400">
-</div>
+<img src="../Images/scorchlet2.png" width="800">
 
 <div class="media-row">
+  <img src="../Images/scorchlet.png" width="400">
   <iframe width="560" height="315"
     src="https://www.youtube.com/embed/u4AS8GVXCNI?si=uR1EygKVddr5bBis"
     frameborder="0"
     allowfullscreen>
   </iframe>
-
+ </div> 
+<div class="media-row">
   <iframe width="560" height="315"
     src="https://www.youtube.com/embed/r8rPklq1FUg?si=539cKCF-CphlYqFN"
     frameborder="0"
