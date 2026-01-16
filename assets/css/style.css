@@ -141,29 +141,28 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  justify-content: center;   /* center vertically */
+  align-items: center;       /* center horizontally */
 }
 
 /* Default media behavior */
 .imagecol img,
+.imagecol iframe,
 .vidcol img,
 .vidcol iframe {
   width: 100%;
   height: auto;
 }
 
-/* --- FIX 1: Center alignment for stacked media --- */
-.vidcol {
-  justify-content: center;   /* vertical centering */
-  align-items: center;       /* horizontal centering */
-}
-
-/* --- FIX 2: Stack & scale ANY media (images or videos) --- */
+/* Two items: stack + scale */
+.imagecol.double > *,
 .vidcol.double > * {
   width: 100%;
   height: auto;
 }
 
-/* Single item stays natural size */
+/* One item: natural size + centered */
+.imagecol.single > *,
 .vidcol.single > * {
   width: auto;
   max-width: 100%;
