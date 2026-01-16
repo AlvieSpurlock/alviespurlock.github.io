@@ -44,7 +44,7 @@ These will be added as they’re completed.
 ---
 
 ## 🔙 Back to Home 
-- [Home](home.md)
+- [Home](index.md)
 ## Other Project Pages
 - [Python](python.md)
 - [Games](games.md)
