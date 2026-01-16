@@ -141,8 +141,8 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  justify-content: center;   /* center vertically */
-  align-items: center;       /* center horizontally */
+  justify-content: center;   /* vertical centering */
+  align-items: center;       /* horizontal centering */
 }
 
 /* Default media behavior */
@@ -152,20 +152,30 @@ h1, h2, h3, h4, h5, h6 {
 .vidcol iframe {
   width: 100%;
   height: auto;
+  object-fit: contain;       /* prevents distortion */
 }
 
-/* Two items: stack + scale */
+/* --- Two items: stack + scale to fill column height --- */
+.imagecol.double,
+.vidcol.double {
+  justify-content: space-between;   /* evenly distribute vertical space */
+}
+
 .imagecol.double > *,
 .vidcol.double > * {
+  flex: 1 1 0;              /* each item takes equal vertical space */
   width: 100%;
-  height: auto;
+  height: 100%;             /* fill the allocated vertical space */
+  object-fit: cover;        /* fill bounds without letterboxing */
 }
 
-/* One item: natural size + centered */
+/* --- One item: natural size + centered --- */
 .imagecol.single > *,
 .vidcol.single > * {
   width: auto;
   max-width: 100%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
+  object-fit: contain;
 }
