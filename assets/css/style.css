@@ -4,11 +4,11 @@
 body {
   background: linear-gradient(
     180deg,
-    #1a1a1a 0%,
-    #232323 25%,
-    #30283f 50%,
-    #3f2f5a 75%,
-    #4a3470 100%
+    #0f0f0f 0%,
+    #1a1a1a 20%,
+    #262033 50%,
+    #332a4a 75%,
+    #3f2f5a 100%
   );
   background-attachment: fixed;
   background-size: cover;
@@ -21,50 +21,54 @@ body {
 /* ============================================================
    NAVIGATION BAR (SOLID DARK GREY)
    ============================================================ */
+/* NAVBAR — solid dark grey, centered name, right links */
 .navbar {
   width: 100%;
-  background: #2a2a2a; /* solid dark grey matching heading outline hue */
+  background: #1a1a1a; /* solid dark grey */
   padding: 14px 20px;
+  display: flex;
+  justify-content: center; /* center the name */
+  align-items: center;
   position: sticky;
   top: 0;
   z-index: 1000;
-  display: flex;
-  flex-direction: column; /* stack name above links */
-  align-items: flex-start; /* left-align everything */
-  gap: 6px;
 }
 
-/* Name above the tabs */
-.nav-title {
-  font-size: 1.4rem;
+/* Center name */
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.3rem;
   font-weight: 700;
   color: #ffffff;
   text-shadow:
-    0 0 2px #000000,
-    0 0 4px #000000,
-    2px 2px 6px rgba(0, 0, 0, 0.8); /* black outline */
+    0 0 2px #000,
+    0 0 4px #000,
+    2px 2px 6px rgba(0,0,0,0.8);
 }
 
-/* Nav links container */
-.nav-links {
+/* Right‑aligned links */
+.nav-right {
+  margin-left: auto;
   display: flex;
-  gap: 16px;
+  gap: 18px;
 }
 
-/* Nav links — now with black outline */
-.nav-links a {
+/* Nav links with black outline */
+.nav-right a {
   color: #ffffff;
   font-weight: 600;
   text-decoration: none;
   position: relative;
   transition: top 0.15s ease, color 0.15s ease;
   text-shadow:
-    0 0 2px #000000,
-    0 0 4px #000000,
-    2px 2px 6px rgba(0, 0, 0, 0.8); /* black outline */
+    0 0 2px #000,
+    0 0 4px #000,
+    2px 2px 6px rgba(0,0,0,0.8);
 }
 
-.nav-links a:hover {
+.nav-right a:hover {
   top: 2px;
   color: #c59cff;
 }
@@ -110,3 +114,4 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 1.2em;
   margin-bottom: 0.4em;
 }
+
