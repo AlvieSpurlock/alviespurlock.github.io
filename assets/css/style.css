@@ -125,11 +125,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.4em;
 }
 
-
-
-
-
-
-
-
-
+.media-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 20px 0;
+}
+.media-row img,
+.media-row iframe {
+  flex: 1 1 calc(50% - 16px);
+  max-width: calc(50% - 16px);
+}
