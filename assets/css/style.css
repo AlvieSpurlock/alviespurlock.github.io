@@ -24,7 +24,6 @@ body {
 /* NAVBAR — solid dark grey, centered name, right links */
 .navbar {
   width: 100%;
-  background: #1a1a1a; /* solid dark grey */
   padding: 14px 20px;
   display: flex;
   justify-content: center; /* center the name */
@@ -37,7 +36,7 @@ body {
 /* Center name */
 .nav-center {
   position: absolute;
-  left: 50%;
+  left: 100%;
   transform: translateX(-50%);
   font-size: 1.3rem;
   font-weight: 700;
@@ -114,5 +113,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 1.2em;
   margin-bottom: 0.4em;
 }
+
 
 
