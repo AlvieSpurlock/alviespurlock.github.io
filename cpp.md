@@ -9,7 +9,7 @@ This page will expand as more C++ projects are completed.
 ## 🎲 Monte Carlo Combat Simulator
 A turn‑based combat simulation engine built in C++ with explicit win/loss return codes, deterministic turn order, and validated HP calculations.
 
-**[Highlights](https://github.com/AlvieSpurlock/TTRPGCombatBalanceSimulator)
+**[Highlights](https://github.com/AlvieSpurlock/TTRPGCombatBalanceSimulator)**
 - Explicit `int` return codes for win/loss states  
 - Deterministic turn sequencing  
 - Randomized monster damage with validation  
