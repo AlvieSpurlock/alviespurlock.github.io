@@ -1,3 +1,13 @@
+<link rel="stylesheet" href="/assets/css/style.css">
+<div class="navbar">
+  <div class="nav-right">
+    <a href="../index.html">Home</a>
+    <a href="/cpp.html">C++ Projects</a>
+    <a href="/games.html">Game Projects</a>
+    <a href="/python.html">Python Projects</a>
+    <a href="../about.html">About Me</a>
+  </div>
+</div>
 # C++ Projects
 A collection of systems‑level tools, simulations, and engine components written in modern C++.  
 I focus on clarity, explicit logic, and predictable behavior — especially in combat systems and backend utilities.
