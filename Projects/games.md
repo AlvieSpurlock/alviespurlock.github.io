@@ -19,7 +19,7 @@ Each project explores mechanics, systems, or player interaction in a focused, it
 A small city‑builder prototype centered around resource flow, building placement, and simple production loops.  
 You expand a tiny settlement and manage limited space as your town grows.
 
-<img src="../Images/wbtc.png" width="400">
+<img src="../Images/wbtc.png" width="400"><br>
 <div style="text-align: center;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/o-LALVxg8F0?si=OONDBjha2vnRV3iz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
@@ -29,7 +29,7 @@ You expand a tiny settlement and manage limited space as your town grows.
 A creature‑raising prototype focused on growth, stats, and interaction.  
 You raise a small dragon‑like creature and explore how its attributes evolve over time.
 
-<img src="../Images/scorchlet.png" width="400">
+<img src="../Images/scorchlet.png" width="400"> <img src="../Images/scorchlet2.png" width="400"><br>
 <div style="text-align: center;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/u4AS8GVXCNI?si=uR1EygKVddr5bBis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
@@ -42,7 +42,7 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
 A compact action prototype built around timing, movement, and simple combat interactions.  
 You control a resilient hero navigating encounters in a stylized environment.
 
-<img src="../Images/hi.png" width="400">
+<img src="../Images/hi.png" width="400"><br>
 <div style="text-align: center;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/kiyJKhMB2tg?si=x_0VCI41NMRU7MLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
