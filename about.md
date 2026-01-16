@@ -40,7 +40,7 @@ I believe in:
 ---
 
 ## 🔙 Back to Home 
-- [Home](home.md)
+- [Home](index.md)
 ## Other Project Pages
 - [Python](Projects/python.md)
 - [C++](Projects/cpp.md)
