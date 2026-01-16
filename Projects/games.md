@@ -20,7 +20,7 @@ Each project explores mechanics, systems, or player interaction in a focused, it
 <br><br>
 
 # **We Built This City: Farmer Edition** - Solo
-A simple, farming sim I built as a challenge. I wanted to do it in a week. I used tick, I really shouldn't have, but I still think the game is beautiful.
+A simple, farming sim I built as a challenge. I wanted to do it in a week. I used tick, I really shouldn't have, but I still think the game is beautiful.<br>
 <img src="../Images/wbtc.png" width="400">
 <iframe width="560" height="315"
   src="https://www.youtube.com/embed/o-LALVxg8F0?si=OONDBjha2vnRV3iz"
@@ -34,9 +34,9 @@ A simple, farming sim I built as a challenge. I wanted to do it in a week. I use
 
 # **Scorchlet** - Solo
 Scorchlet is a cute little dragon that you get to watch grow!
-You interact with your dragon and watch it live it's life.
-You can feed it and tickle it too!
-It is also localized to 12 Languages(including English).
+You interact with your dragon and watch it live it's life.<br>
+You can feed it and tickle it too!<br>
+It is also localized to 12 Languages(including English).<br>
 <img src="../Images/scorchlet2.png" width="800">
 
 <div class="media-row">
@@ -62,9 +62,9 @@ It is also localized to 12 Languages(including English).
 <br><br>
 
 # **Hero Impervious** - Solo
-This game is a twist on a typical RPG with some fascinating Simulation/Arcade aspects. 
-I built it to be a rage game. 
-It is essentially a giant ball physicals simulator.
+This game is a twist on a typical RPG with some fascinating Simulation/Arcade aspects. <br>
+I built it to be a rage game. <br>
+It is essentially a giant ball physicals simulator.<br>
 <img src="../Images/hi.png" width="400">
 <iframe width="560" height="315"
   src="https://www.youtube.com/embed/kiyJKhMB2tg?si=x_0VCI41NMRU7MLo"
@@ -81,7 +81,7 @@ It is essentially a giant ball physicals simulator.
 ---
 
 ### **Echoes of a Dream** - Solo
-A psychological horror where you jump from nightmare to nightmare and reality becomes a distant memory.
+A psychological horror where you jump from nightmare to nightmare and reality becomes a distant memory.<br>
 <div class="media-row">
   <div class="imagecol">
     <img src="../Images/eod1.png" width="350">
@@ -102,7 +102,7 @@ A psychological horror where you jump from nightmare to nightmare and reality be
 ---
 
 ### **Afterimage** - Solo/Halted
-A superhero semi-open world action rpg with heavy time travel mechanics and deep, layered narrative.
+A superhero semi-open world action rpg with heavy time travel mechanics and deep, layered narrative.<br>
 <div class="media-row">
   <div class="imagecol">
     <img src="../Images/ai1.png" width="350">
@@ -119,7 +119,7 @@ A superhero semi-open world action rpg with heavy time travel mechanics and deep
 ---
 
 ### **Sam Hain** - Solo/Postponed
-A stylized, fps based around halloween with a Terror Comic vibe.
+A stylized, fps based around halloween with a Terror Comic vibe.<br>
 <div class="media-row">
   <div class="imagecol">
     <img src="../Images/sh1.png" width="350">
@@ -140,7 +140,7 @@ A stylized, fps based around halloween with a Terror Comic vibe.
 ---
 
 ### **Drake Forged** - Team
-A semi-open world fantasy rpg with a deep narrative and even deeper mechanics.
+A semi-open world fantasy rpg with a deep narrative and even deeper mechanics.<br>
 <div class="media-row">
   <div class="imagecol">
     <img src="../Images/df2.png" width="350">
