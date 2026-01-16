@@ -47,7 +47,7 @@ Semi-open world RPG with deep systems and narrative<br>
 ---
 
 ## 🔙 Back to Home 
-- [Home](home.md)
+- [Home](../index.md)
 ## Other Project Pages
 - [C++](cpp.md)
 - [Python](python.md)
