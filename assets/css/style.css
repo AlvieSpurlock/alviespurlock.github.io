@@ -17,61 +17,6 @@ body {
   color: #ffffff;
   font-family: sans-serif;
 }
-
-/* ============================================================
-   NAVIGATION BAR (SOLID DARK GREY)
-   ============================================================ */
-/* NAVBAR — solid dark grey, centered name, right links */
-.navbar {
-  width: 100%;
-  padding: 14px 20px;
-  display: flex;
-  justify-content: center; /* center the name */
-  align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-/* Center name */
-.nav-center {
-  position: absolute;
-  left: 100%;
-  transform: translateX(-50%);
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: #ffffff;
-  text-shadow:
-    0 0 2px #000,
-    0 0 4px #000,
-    2px 2px 6px rgba(0,0,0,0.8);
-}
-
-/* Right‑aligned links */
-.nav-right {
-  margin-left: auto;
-  display: flex;
-  gap: 18px;
-}
-
-/* Nav links with black outline */
-.nav-right a {
-  color: #ffffff;
-  font-weight: 600;
-  text-decoration: none;
-  position: relative;
-  transition: top 0.15s ease, color 0.15s ease;
-  text-shadow:
-    0 0 2px #000,
-    0 0 4px #000,
-    2px 2px 6px rgba(0,0,0,0.8);
-}
-
-.nav-right a:hover {
-  top: 2px;
-  color: #c59cff;
-}
-
 /* ============================================================
    IMAGE HOVER POP
    ============================================================ */
@@ -87,16 +32,23 @@ img:hover {
 /* ============================================================
    LINK HOVER MOVEMENT (GLOBAL)
    ============================================================ */
+/* GENERAL LINKS — light grey + black outline */
 a {
+  color: #d0d0d0; /* light grey */
+  text-decoration: none;
   position: relative;
   transition: top 0.15s ease, color 0.15s ease;
-  color: #d8cfff;
-  text-decoration: none;
+
+  /* black outline */
+  text-shadow:
+    0 0 2px #000000,
+    0 0 4px #000000,
+    2px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 a:hover {
   top: 2px;
-  color: #c59cff;
+  color: #c59cff; /* purple hover */
   font-weight: 600;
 }
 
@@ -104,15 +56,17 @@ a:hover {
    HEADINGS — DARKER GREY OUTLINE + SHADOW
    ============================================================ */
 h1, h2, h3, h4, h5, h6 {
-  color: #ffffff !important;
+  color: #ffffff !important; /* pure white text */
   text-shadow:
-    0 0 2px #6f6f6f,
-    0 0 4px #5a5a5a,
-    2px 2px 6px rgba(0, 0, 0, 0.7) !important;
+    0 0 2px #3a3a3a,   /* darker grey outline */
+    0 0 4px #2e2e2e,   /* deeper outline glow */
+    2px 2px 6px rgba(0, 0, 0, 0.75) !important; /* soft dark backdrop */
   font-weight: 700 !important;
   margin-top: 1.2em;
   margin-bottom: 0.4em;
 }
+
+
 
 
 
