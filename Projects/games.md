@@ -20,19 +20,8 @@ Each project explores mechanics, systems, or player interaction in a focused, it
 <br><br>
 
 # **We Built This City: Farmer Edition**
-
-<div class="media-row">
-  <div class="imagecol">
-    <img src="../Images/wbtc.png" width="400">
-  </div>
-  <div class="vidcol single">
-    <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/o-LALVxg8F0?si=OONDBjha2vnRV3iz"
-      frameborder="0"
-      allowfullscreen>
-    </iframe>
-  </div>
-</div>
+<img src="../Images/wbtc.png" width="400">
+<iframe width="560" height="315"src="https://www.youtube.com/embed/o-LALVxg8F0?si=OONDBjha2vnRV3iz"frameborder="0"allowfullscreen></iframe>
 
 ---
 
@@ -70,19 +59,9 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
 <br><br>
 
 # **Hero Impervious**
+<img src="../Images/hi.png" width="400">
+<iframe width="560" height="315"src="https://www.youtube.com/embed/kiyJKhMB2tg?si=x_0VCI41NMRU7MLo"frameborder="0"allowfullscreen></iframe>
 
-<div class="media-row">
-  <div class="imagecol">
-    <img src="../Images/hi.png" width="400">
-  </div>
-  <div class="vidcol single">
-    <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/kiyJKhMB2tg?si=x_0VCI41NMRU7MLo"
-      frameborder="0"
-      allowfullscreen>
-    </iframe>
-  </div>
-</div>
 
 ---
 
@@ -145,34 +124,23 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
 <div class="media-row">
   <div class="imagecol">
     <img src="../Images/df2.png" width="350">
+    <img src="../Images/df1.png" width="350">
   </div>
   <div class="vidcol single">
-    <img src="../Images/df1.png" width="350">
     <img src="../Images/df3.png" width="350">
-  </div>
-</div>
-
-<div class="media-row">
-  <div class="imagecol">
     <img src="../Images/df4.png" width="350">
   </div>
-  <div class="vidcol single">
-    <img src="../Images/df5.png" width="350">
-  </div>
 </div>
 
 <div class="media-row">
   <div class="imagecol">
-    <img src="../Images/df6.png" width="350">
+    <img src="../Images/df5.png" width="350">
   </div>
   <div class="vidcol single">
-        <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/c4CSSQL0MRI?si=3rQWP3vf2MuzjCxt"
-      frameborder="0"
-      allowfullscreen>
-    </iframe>
+    <img src="../Images/df6.png" width="350">
   </div>
 </div>
+<iframe width="560" height="315"src="https://www.youtube.com/embed/c4CSSQL0MRI?si=3rQWP3vf2MuzjCxt"frameborder="0"allowfullscreen></iframe>
 
 ---
 
