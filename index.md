@@ -1,4 +1,15 @@
 <link rel="stylesheet" href="/assets/css/style.css">
+<div class="navbar">
+  <div class="nav-center">Alvie Spurlock</div>
+
+  <div class="nav-right">
+    <a href="/index.md">Home</a>
+    <a href="/Projects/cpp.md">C++ Projects</a>
+    <a href="/Projects/games.md">Game Projects</a>
+    <a href="/Projects/python.md">Python Projects</a>
+    <a href="/Projects/about.md">About Me</a>
+  </div>
+</div>
 
 # **Alvie Spurlock**
 ### Python Developer • C++ Systems Engineer • Game Developer
