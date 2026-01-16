@@ -34,6 +34,7 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
 
 <br><img src="../Images/scorchlet2.png" width="800"><br>
 <img src="../Images/scorchlet.png" width="400"><br>
+<br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u4AS8GVXCNI?si=uR1EygKVddr5bBis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/r8rPklq1FUg?si=539cKCF-CphlYqFN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -47,7 +48,7 @@ A compact action prototype built around timing, movement, and simple combat inte
 You control a resilient hero navigating encounters in a stylized environment.
 
 <br><img src="../Images/hi.png" width="400"><br>
-
+<br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kiyJKhMB2tg?si=x_0VCI41NMRU7MLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br>
 ---
@@ -57,34 +58,22 @@ These are planned or in‑progress concepts that will be added as they develop:
 
 - **Echoes of a Dream** — Solo<br>
 Psychological horror<br>
-<img src="../Images/eod1.png" width="350"> <img src="../Images/eod2.png" width="350"><br>
-<div style="text-align: center;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/36LRIM3dotg?si=ffu-HENLCXthcDHh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+<img src="../Images/eod1.png" width="350"> <img src="../Images/eod2.png" width="350"><br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/36LRIM3dotg?si=ffu-HENLCXthcDHh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br>
 - **Afterimage** — Solo/Halted<br>
 Speedster, action RPG<br>
 <img src="../Images/ai1.png" width="350"> <img src="../Images/ai2.png" width="350"> <img src="../Images/ai3.png" width="350"><br> 
 - **Sam Hain** — Solo/Postponed<br>
 Stylized, FPS based around Halloween with Terror Comic themes<br>
-<img src="../Images/sh1.png" width="350"> <img src="../Images/sh2.png" width="350"><br>
-<div style="text-align: center;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/7i0oiYfdz24?si=tDD-VGNQmZZtooPC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+<img src="../Images/sh1.png" width="350"> <img src="../Images/sh2.png" width="350"><br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7i0oiYfdz24?si=tDD-VGNQmZZtooPC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
 - **Drake Forged** — Team<br>
 Semi-open world RPG with deep systems and narrative<br>
 <img src="../Images/df2.png" width="350"> <img src="../Images/df1.png" width="350"><br>
 <img src="../Images/df3.png" width="350"> <img src="../Images/df4.png" width="350"><br>
- <img src="../Images/df5.png" width="350"> <img src="../Images/df6.png" width="350"><br>
-<div style="text-align: center;">
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/c4CSSQL0MRI?si=3rQWP3vf2MuzjCxt"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen>
-  </iframe>
-</div>
+<img src="../Images/df5.png" width="350"> <img src="../Images/df6.png" width="350"><br><br>
+<iframe width="560" height="315"src="https://www.youtube.com/embed/c4CSSQL0MRI?si=3rQWP3vf2MuzjCxt"title="YouTube video player"frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"referrerpolicy="strict-origin-when-cross-origin"allowfullscreen></iframe><br><br>
 
 ---
 
