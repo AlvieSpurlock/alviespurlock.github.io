@@ -8,13 +8,14 @@
     <a href="/about.html">About Me</a>
   </div>
 </div>
+<br>
 # 🎮 Game Projects
 A collection of prototypes and gameplay experiments.  
 Each project explores mechanics, systems, or player interaction in a focused, iterative way.
 
 ---
-
-## **[We Built This City: Farmer Edition](https://madteapartydevelopment.itch.io/we-built-this-city-farmer)**
+<br><br>
+# **[We Built This City: Farmer Edition](https://madteapartydevelopment.itch.io/we-built-this-city-farmer)**
 A small city‑builder prototype centered around resource flow, building placement, and simple production loops.  
 You expand a tiny settlement and manage limited space as your town grows.
 
@@ -23,8 +24,8 @@ You expand a tiny settlement and manage limited space as your town grows.
   <iframe width="560" height="315" src="https://www.youtube.com/embed/o-LALVxg8F0?si=OONDBjha2vnRV3iz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 ---
-
-## **[Scorchlet](https://madteapartydevelopment.itch.io/scorchlet)**
+<br><br>
+# **[Scorchlet](https://madteapartydevelopment.itch.io/scorchlet)**
 A creature‑raising prototype focused on growth, stats, and interaction.  
 You raise a small dragon‑like creature and explore how its attributes evolve over time.
 
@@ -36,8 +37,8 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
   <iframe width="560" height="315" src="https://www.youtube.com/embed/r8rPklq1FUg?si=539cKCF-CphlYqFN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 ---
-
-## **[Hero Impervious](https://madteapartydevelopment.itch.io/hero-impervious)**
+<br><br>
+# **[Hero Impervious](https://madteapartydevelopment.itch.io/hero-impervious)**
 A compact action prototype built around timing, movement, and simple combat interactions.  
 You control a resilient hero navigating encounters in a stylized environment.
 
@@ -46,8 +47,8 @@ You control a resilient hero navigating encounters in a stylized environment.
   <iframe width="560" height="315" src="https://www.youtube.com/embed/kiyJKhMB2tg?si=x_0VCI41NMRU7MLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 ---
-
-# 🧪 Future Game Projects
+<br><br>
+## 🧪 Future Game Projects
 These are planned or in‑progress concepts that will be added as they develop:
 
 - **Echoes of a Dream** — Solo<br>
