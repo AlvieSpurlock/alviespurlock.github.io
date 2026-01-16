@@ -1,3 +1,6 @@
+/* ------------------------------ */
+/* Background (Git‑style gradient) */
+/* ------------------------------ */
 body {
   background: linear-gradient(
     135deg,
@@ -12,8 +15,47 @@ body {
   margin: 0;
   padding: 0;
   color: #ffffff;
+  font-family: sans-serif;
 }
 
+/* ------------------------------ */
+/* Polished Top Navigation Bar    */
+/* ------------------------------ */
+.navbar {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(6px);
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: #ffffff;
+  margin: 0 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: top 0.15s ease, color 0.15s ease;
+  position: relative;
+}
+
+.navbar a:hover {
+  top: 2px;
+  color: #c59cff;
+}
+
+.nav-right strong {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+/* ------------------------------ */
+/* Image Hover Pop                */
+/* ------------------------------ */
 img {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -23,6 +65,9 @@ img:hover {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
 }
 
+/* ------------------------------ */
+/* Link Hover Movement            */
+/* ------------------------------ */
 a {
   position: relative;
   transition: top 0.15s ease, color 0.15s ease;
@@ -35,13 +80,17 @@ a:hover {
   color: #c59cff;
   font-weight: 600;
 }
+
+/* ------------------------------ */
+/* Heading / Title Styling        */
+/* ------------------------------ */
 h1, h2, h3, h4, h5, h6 {
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow:
     0 0 2px #d0d0d0,
     0 0 4px #d0d0d0,
-    2px 2px 6px rgba(0, 0, 0, 0.6);
-  font-weight: 700;
+    2px 2px 6px rgba(0, 0, 0, 0.6) !important;
+  font-weight: 700 !important;
   margin-top: 1.2em;
   margin-bottom: 0.4em;
 }
