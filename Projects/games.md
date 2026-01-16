@@ -100,13 +100,11 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
   </div>
   <div class="vidcol single">
     <img src="../Images/eod2.png" width="350">
-     <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/36LRIM3dotg?si=ffu-HENLCXthcDHh"
-      frameborder="0"
-      allowfullscreen>
-    </iframe>
   </div>
 </div>
+
+<iframe width="560" height="315"src="https://www.youtube.com/embed/36LRIM3dotg?si=ffu-HENLCXthcDHh"
+  frameborder="0"allowfullscreen></iframe>
 
 ---
 
@@ -118,9 +116,9 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
   </div>
   <div class="vidcol single">
     <img src="../Images/ai2.png" width="350">
-    <img src="../Images/ai3.png" width="350">
   </div>
 </div>
+<img src="../Images/ai3.png" width="350">
 
 ---
 
@@ -132,13 +130,13 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
   </div>
   <div class="vidcol single">
     <img src="../Images/sh2.png" width="350">
+  </div>
+</div>
         <iframe width="560" height="315"
       src="https://www.youtube.com/embed/7i0oiYfdz24?si=tDD-VGNQmZZtooPC"
       frameborder="0"
       allowfullscreen>
     </iframe>
-  </div>
-</div>
 
 ---
 
