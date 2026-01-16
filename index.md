@@ -20,17 +20,14 @@ Everything here links directly to my GitHub projects and itch.io builds.
 ## **Featured Projects**
 
 ### **Python**
-- **[PyCommand](https://github.com/AlvieSpurlock/PyCommand)**
-    A lightweight command routing system for Python. Clean, simple, and built for extensibility.  
+- **[PyCommand](https://github.com/AlvieSpurlock/PyCommand)**: lightweight command routing system for Python. Clean, simple, and built for extensibility.  
 
-- **[PyError](https://github.com/AlvieSpurlock/PyError)**
-    A structured error‑logging tool that captures exceptions with timestamps, file paths, and line numbers.  
+- **[PyError](https://github.com/AlvieSpurlock/PyError)**: A structured error‑logging tool that captures exceptions with timestamps, file paths, and line numbers.  
 
 ---
 
 ### **C++**
-- **[Monte Carlo Combat Simulator](https://github.com/AlvieSpurlock/TTRPGCombatBalanceSimulator)**
-    A systems‑level simulation engine built in C++ with explicit turn order, HP validation, and win/loss return codes.  
+- **[Monte Carlo Combat Simulator](https://github.com/AlvieSpurlock/TTRPGCombatBalanceSimulator)**: A systems‑level simulation engine built in C++ with explicit turn order, HP validation, and win/loss return codes.  
 
 ---
 
