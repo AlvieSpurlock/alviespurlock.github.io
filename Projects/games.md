@@ -19,7 +19,8 @@ Each project explores mechanics, systems, or player interaction in a focused, it
 
 <br><br>
 
-# **We Built This City: Farmer Edition**
+# **We Built This City: Farmer Edition** - Solo
+A simple, farming sim I built as a challenge. I wanted to do it in a week. I used tick, I really shouldn't have, but I still think the game is beautiful.
 <img src="../Images/wbtc.png" width="400">
 <iframe width="560" height="315"
   src="https://www.youtube.com/embed/o-LALVxg8F0?si=OONDBjha2vnRV3iz"
@@ -31,10 +32,11 @@ Each project explores mechanics, systems, or player interaction in a focused, it
 
 <br><br>
 
-# **Scorchlet**
-A creature‑raising prototype focused on growth, stats, and interaction.  
-You raise a small dragon‑like creature and explore how its attributes evolve over time.
-
+# **Scorchlet** - Solo
+Scorchlet is a cute little dragon that you get to watch grow!
+You interact with your dragon and watch it live it's life.
+You can feed it and tickle it too!
+It is also localized to 12 Languages(including English).
 <img src="../Images/scorchlet2.png" width="800">
 
 <div class="media-row">
@@ -47,7 +49,6 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
       frameborder="0"
       allowfullscreen>
     </iframe>
-
     <iframe width="560" height="315"
       src="https://www.youtube.com/embed/r8rPklq1FUg?si=539cKCF-CphlYqFN"
       frameborder="0"
@@ -60,7 +61,10 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
 
 <br><br>
 
-# **Hero Impervious**
+# **Hero Impervious** - Solo
+This game is a twist on a typical RPG with some fascinating Simulation/Arcade aspects. 
+I built it to be a rage game. 
+It is essentially a giant ball physicals simulator.
 <img src="../Images/hi.png" width="400">
 <iframe width="560" height="315"
   src="https://www.youtube.com/embed/kiyJKhMB2tg?si=x_0VCI41NMRU7MLo"
@@ -76,8 +80,8 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
 
 ---
 
-### **Echoes of a Dream**
-
+### **Echoes of a Dream** - Solo
+A psychological horror where you jump from nightmare to nightmare and reality becomes a distant memory.
 <div class="media-row">
   <div class="imagecol">
     <img src="../Images/eod1.png" width="350">
@@ -97,8 +101,8 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
 
 ---
 
-### **Afterimage**
-
+### **Afterimage** - Solo/Halted
+A superhero semi-open world action rpg with heavy time travel mechanics and deep, layered narrative.
 <div class="media-row">
   <div class="imagecol">
     <img src="../Images/ai1.png" width="350">
@@ -114,8 +118,8 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
 
 ---
 
-### **Sam Hain**
-
+### **Sam Hain** - Solo/Postponed
+A stylized, fps based around halloween with a Terror Comic vibe.
 <div class="media-row">
   <div class="imagecol">
     <img src="../Images/sh1.png" width="350">
@@ -135,8 +139,8 @@ You raise a small dragon‑like creature and explore how its attributes evolve o
 
 ---
 
-### **Drake Forged**
-
+### **Drake Forged** - Team
+A semi-open world fantasy rpg with a deep narrative and even deeper mechanics.
 <div class="media-row">
   <div class="imagecol">
     <img src="../Images/df2.png" width="350">
