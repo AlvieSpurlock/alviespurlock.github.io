@@ -35,4 +35,13 @@ I believe in:
 - Building systems that scale  
 - Learning by doing  
 - Staying adaptable  
-- Leading with action, not words  
+- Leading with action, not words
+
+---
+
+## 🔙 Back to Home 
+- [Home](home.md)
+## Other Project Pages
+- [Python](python.md)
+- [C++](cpp.md)
+- [Games](games.md)
