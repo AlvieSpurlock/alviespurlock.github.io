@@ -31,9 +31,9 @@ Everything here links directly to my GitHub projects and itch.io builds.
 ---
 
 ## 📁 **Project Categories**
-- [Python Projects](python.md)  
-- [C++ Projects](cpp.md)  
-- [Game Projects](games.md)
+- [Python Projects](Projects/python.md)  
+- [C++ Projects](Projects/cpp.md)  
+- [Game Projects](Projects/games.md)
 
 ---
 
