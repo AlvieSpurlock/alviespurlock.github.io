@@ -1,0 +1,6 @@
+theme: minima
+markdown: kramdown
+
+# Add your custom stylesheet
+include:
+  - assets/css/style.css
