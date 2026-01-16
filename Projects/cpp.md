@@ -16,10 +16,10 @@ This page will expand as more C++ projects are completed.
 
 ---
 
-## 🎲 Monte Carlo Combat Simulator
+## 🎲 [Monte Carlo Combat Simulator](https://github.com/AlvieSpurlock/TTRPGCombatBalanceSimulator)
 A turn‑based combat simulation engine built in C++ with explicit win/loss return codes, deterministic turn order, and validated HP calculations.<br><br>
 <img src="../Images/MC.png" width="400"><br><br>
-**[Highlights](https://github.com/AlvieSpurlock/TTRPGCombatBalanceSimulator)**
+**Highlights**
 - Explicit `int` return codes for win/loss states  
 - Deterministic turn sequencing  
 - Randomized monster damage with validation  
@@ -28,10 +28,10 @@ A turn‑based combat simulation engine built in C++ with explicit win/loss retu
 
 ---
 
-## Asset Logger
+## [Asset Logger](https://github.com/AlvieSpurlock/AssetLogger)
 A console based Indie Dev tool for Steam Submissions and Asset Inventory. It guides you through adn takes input of your assets, their location, their purpose, who made them, their platform, and your license type then saves it into a structured .csv.<br><br>
 <img src="../Images/AL.png" width="400"><br><br>
-**[Highlights](https://github.com/AlvieSpurlock/AssetLogger)**
+**Highlights**
 - Guided, step‑by‑step asset entry workflow
 - Input validation to prevent missing or malformed fields
 - Automatic formatting into a clean, Steam‑ready CSV
