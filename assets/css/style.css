@@ -151,15 +151,20 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
 }
 
-/* If vidcol has two videos, they split the column */
-.vidcol.two-videos iframe {
+/* --- FIX 1: Center alignment for stacked media --- */
+.vidcol {
+  justify-content: center;   /* vertical centering */
+  align-items: center;       /* horizontal centering */
+}
+
+/* --- FIX 2: Stack & scale ANY media (images or videos) --- */
+.vidcol.double > * {
   width: 100%;
   height: auto;
 }
 
-/* If vidcol has only one item, keep natural size */
-.vidcol.single iframe,
-.vidcol.single img {
+/* Single item stays natural size */
+.vidcol.single > * {
   width: auto;
   max-width: 100%;
   margin-left: auto;
