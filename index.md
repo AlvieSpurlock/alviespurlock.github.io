@@ -10,8 +10,7 @@
     <a href="/Projects/about.md">About Me</a>
   </div>
 </div>
-
-# **Alvie Spurlock**
+<br>
 ### Python Developer • C++ Systems Engineer • Game Developer
 
 Welcome to my portfolio. I build fast, minimal, and intentional software — from backend tools to C++ combat simulations to game development utilities.  
