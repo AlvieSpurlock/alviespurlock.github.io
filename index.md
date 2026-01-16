@@ -1,17 +1,6 @@
 <link rel="stylesheet" href="/assets/css/style.css">
-<div class="navbar">
-  <div class="nav-center">Alvie Spurlock</div>
 
-  <div class="nav-right">
-    <a href="/index.md">Home</a>
-    <a href="/Projects/cpp.md">C++ Projects</a>
-    <a href="/Projects/games.md">Game Projects</a>
-    <a href="/Projects/python.md">Python Projects</a>
-    <a href="/Projects/about.md">About Me</a>
-  </div>
-</div>
-<br>
-# Alvie Spurlock <br><br>
+## Alvie Spurlock <br><br>
 ### Python Developer • C++ Systems Engineer • Game Developer
 
 Welcome to my portfolio. I build fast, minimal, and intentional software — from backend tools to C++ combat simulations to game development utilities.  
