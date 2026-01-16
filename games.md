@@ -36,4 +36,8 @@ These are planned or in‑progress concepts that will be added as they develop:
 
 ---
 
-## 🔙 **[Back to Projects](../projects.md)**
+## 🔙 Back to Home 
+- [Home](home.md)
+## Other Project Pages
+- [C++](cpp.md)
+- [Python](python.md)
