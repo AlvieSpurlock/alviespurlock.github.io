@@ -11,6 +11,7 @@
   </div>
 </div>
 <br>
+# Alvie Spurlock <br><br>
 ### Python Developer • C++ Systems Engineer • Game Developer
 
 Welcome to my portfolio. I build fast, minimal, and intentional software — from backend tools to C++ combat simulations to game development utilities.  
