@@ -19,60 +19,71 @@ Each project explores mechanics, systems, or player interaction in a focused, it
 
 <br><br>
 
-# **[We Built This City: Farmer Edition](https://madteapartydevelopment.itch.io/we-built-this-city-farmer)**
-A small city‑builder prototype centered around resource flow, building placement, and simple production loops.  
-You expand a tiny settlement and manage limited space as your town grows.
+# **We Built This City: Farmer Edition**
 
 <div class="media-row">
-  <img src="../Images/wbtc.png" width="400">
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/o-LALVxg8F0?si=OONDBjha2vnRV3iz"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
+  <div class="imagecol">
+    <img src="../Images/wbtc.png" width="400">
+  </div>
+
+  <div class="vidcol single">
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/o-LALVxg8F0?si=OONDBjha2vnRV3iz"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
 </div>
 
 ---
 
 <br><br>
 
-# **[Scorchlet](https://madteapartydevelopment.itch.io/scorchlet)**
+# **Scorchlet**
 A creature‑raising prototype focused on growth, stats, and interaction.  
 You raise a small dragon‑like creature and explore how its attributes evolve over time.
+
+<!-- Full-width standalone image -->
 
 <img src="../Images/scorchlet2.png" width="800">
 
 <div class="media-row">
-  <img src="../Images/scorchlet.png" width="400">
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/u4AS8GVXCNI?si=uR1EygKVddr5bBis"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
- </div> 
-<div class="media-row">
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/r8rPklq1FUg?si=539cKCF-CphlYqFN"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
+  <div class="imagecol">
+    <img src="../Images/scorchlet.png" width="400">
+  </div>
+  <div class="vidcol double">
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/u4AS8GVXCNI?si=uR1EygKVddr5bBis"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/r8rPklq1FUg?si=539cKCF-CphlYqFN"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
 </div>
+
 
 ---
 
 <br><br>
 
-# **[Hero Impervious](https://madteapartydevelopment.itch.io/hero-impervious)**
-A compact action prototype built around timing, movement, and simple combat interactions.  
-You control a resilient hero navigating encounters in a stylized environment.
+# **Hero Impervious**
 
 <div class="media-row">
-  <img src="../Images/hi.png" width="400">
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/kiyJKhMB2tg?si=x_0VCI41NMRU7MLo"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
+  <div class="imagecol">
+    <img src="../Images/hi.png" width="400">
+  </div>
+
+  <div class="vidcol single">
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/kiyJKhMB2tg?si=x_0VCI41NMRU7MLo"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
 </div>
 
 ---
@@ -80,84 +91,125 @@ You control a resilient hero navigating encounters in a stylized environment.
 <br><br>
 
 ## 🧪 Future Game Projects
-These are planned or in‑progress concepts that will be added as they develop.
 
 ---
 
-### **Echoes of a Dream** — Solo  
-Psychological horror  
+### **Echoes of a Dream**
 
 <div class="media-row">
-  <img src="../Images/eod1.png" width="350">
-  <img src="../Images/eod2.png" width="350">
+  <div class="imagecol">
+    <img src="../Images/eod1.png" width="350">
+  </div>
+
+  <div class="vidcol single">
+    <img src="../Images/eod2.png" width="350">
+  </div>
 </div>
 
 <div class="media-row">
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/36LRIM3dotg?si=ffu-HENLCXthcDHh"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
-</div>
+  <div class="imagecol"></div>
 
----
-
-### **Afterimage** — Solo/Halted**  
-Speedster, action RPG  
-
-<div class="media-row">
-  <img src="../Images/ai1.png" width="350">
-  <img src="../Images/ai2.png" width="350">
-</div>
-
-<div class="media-row">
-  <img src="../Images/ai3.png" width="350">
+  <div class="vidcol single">
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/36LRIM3dotg?si=ffu-HENLCXthcDHh"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
 </div>
 
 ---
 
-### **Sam Hain** — Solo/Postponed  
-Stylized FPS based around Halloween with Terror Comic themes  
+### **Afterimage**
 
 <div class="media-row">
-  <img src="../Images/sh1.png" width="350">
-  <img src="../Images/sh2.png" width="350">
+  <div class="imagecol">
+    <img src="../Images/ai1.png" width="350">
+  </div>
+
+  <div class="vidcol single">
+    <img src="../Images/ai2.png" width="350">
+  </div>
 </div>
 
 <div class="media-row">
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/7i0oiYfdz24?si=tDD-VGNQmZZtooPC"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
+  <div class="imagecol"></div>
+
+  <div class="vidcol single">
+    <img src="../Images/ai3.png" width="350">
+  </div>
 </div>
 
 ---
 
-### **Drake Forged** — Team  
-Semi‑open world RPG with deep systems and narrative  
+### **Sam Hain**
 
 <div class="media-row">
-  <img src="../Images/df2.png" width="350">
-  <img src="../Images/df1.png" width="350">
+  <div class="imagecol">
+    <img src="../Images/sh1.png" width="350">
+  </div>
+
+  <div class="vidcol single">
+    <img src="../Images/sh2.png" width="350">
+  </div>
 </div>
 
 <div class="media-row">
-  <img src="../Images/df3.png" width="350">
-  <img src="../Images/df4.png" width="350">
+  <div class="imagecol"></div>
+
+  <div class="vidcol single">
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/7i0oiYfdz24?si=tDD-VGNQmZZtooPC"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+---
+
+### **Drake Forged**
+
+<div class="media-row">
+  <div class="imagecol">
+    <img src="../Images/df2.png" width="350">
+  </div>
+
+  <div class="vidcol single">
+    <img src="../Images/df1.png" width="350">
+  </div>
 </div>
 
 <div class="media-row">
-  <img src="../Images/df5.png" width="350">
-  <img src="../Images/df6.png" width="350">
+  <div class="imagecol">
+    <img src="../Images/df3.png" width="350">
+  </div>
+
+  <div class="vidcol single">
+    <img src="../Images/df4.png" width="350">
+  </div>
 </div>
 
 <div class="media-row">
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/c4CSSQL0MRI?si=3rQWP3vf2MuzjCxt"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
+  <div class="imagecol">
+    <img src="../Images/df5.png" width="350">
+  </div>
+
+  <div class="vidcol single">
+    <img src="../Images/df6.png" width="350">
+  </div>
+</div>
+
+<div class="media-row">
+  <div class="imagecol"></div>
+
+  <div class="vidcol single">
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/c4CSSQL0MRI?si=3rQWP3vf2MuzjCxt"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
 </div>
 
 ---
