@@ -36,7 +36,7 @@ Everything on this site is a short, general description of the games, apps, and 
 ### **Games**
 - **My itch.io Projects**  
   A collection of prototypes, experiments, and game dev coursework.  
-  - *[Play on itch.io:](https://madteapartydevelopment.itch.io)*
+  - *[Play on itch.io](https://madteapartydevelopment.itch.io)*
 
 ---
 
