@@ -13,7 +13,8 @@
 ### Python Developer • C++ Systems Engineer • Game Developer
 
 Welcome to my portfolio. I build fast, minimal, and intentional software — from backend tools to C++ combat simulations to game development utilities.  
-Everything here links directly to my GitHub projects and itch.io builds.
+Everything on this site is a short, general description of the games, apps, and tools I have made or helped make. If you want to go more in depth please visit - https://sites.google.com/view/alviespurlock/home. This site has in depth break downs, post mortems, and screenshots of the projects listed here and more.
+<br>Everything here links directly to my GitHub projects and itch.io builds.
 
 ---
 
