@@ -61,7 +61,3 @@ I learn by doing — fast iteration, clean architecture, and intentional design.
 - **GitHub:** https://github.com/AlvieSpurlock  
 - **LinkedIn:** https://www.linkedin.com/in/alvie-spurlock-67a612286/  
 - **Email:** alviespurlock@yahoo.com  
-
----
-
-*This site is built with GitHub Pages using simple Markdown files. No frameworks, no CSS — just clean content and fast navigation.*
