@@ -8,6 +8,7 @@
     <a href="/about.html">About Me</a>
   </div>
 </div>
+
 # 🐍 Python Projects
 A collection of tools, utilities, and backend systems built in Python.  
 I focus on clean architecture, predictable behavior, and fast iteration.  
@@ -15,15 +16,19 @@ This page will grow as I continue building new tools.
 
 ---
 
-## **[PyCommand](https://github.com/AlvieSpurlock/PyCommand)**
-A lightweight command routing system for Python.  
-Designed for small tools, CLIs, and modular utilities where functions need to be registered and invoked cleanly.
+## **[MathCore](https://github.com/AlvieSpurlock/MathCore)**
+A modular mathematical computation library and generative art engine for Python.  
+Covers 23 domains and 1,364 callable functions across pure mathematics and physics — and uses every calculation as direct input to a deterministic generative art system that turns each result into a unique, reproducible 3000×3000px artwork.
 
 **Features**
-- Register functions with a single decorator  
-- Invoke commands by index or name  
-- Pass parameters dynamically  
-- Integrates with PyError for structured error logging  
+- 23 modules spanning Algebra, Calculus, Trigonometry, Statistics, Probability, Combinatorics, Topology, Linear Algebra, Differential Geometry, Abstract Algebra, Algebraic Geometry, Discrete Math, and a full Physics suite
+- 1,364 callable functions — all documented, input-validated, and dependency-free
+- Generative art engine that maps function class, result value, and input values to visual parameters — stroke vocabulary, composition, color distribution, frequency, and focal geometry are all driven by the math
+- Eight built-in visual profiles (Neon City, Deep Space, Solar Flare, Ice Grid, Organic, Monochrome, Chaos, Default)
+- 3000×3000px default output with LANCZOS-quality preview downscaling
+- Full Tkinter UI with searchable sidebar across all 23 modules
+- Floating art monitor with session history, regen, and PNG export
+- Rarity system: Common → Uncommon → Rare → Ultra Rare → Legendary
 
 ---
 
@@ -31,28 +36,16 @@ Designed for small tools, CLIs, and modular utilities where functions need to be
 A structured error‑logging tool that captures exceptions with timestamps, file paths, methods, and line numbers.
 
 **Features**
-- Automatic exception capture  
-- Clean, readable log formatting  
-- Timestamped entries  
-- Perfect for debugging larger systems  
+- Automatic exception capture
+- Clean, readable log formatting
+- Timestamped entries
+- Perfect for debugging larger systems
 
 ---
 
-## 📦 **Future Python Tools**
-This section is reserved for upcoming utilities and backend systems.  
-Planned additions include:
-
-- **PyDB** — Database manager
-- **PyFileCloud** — Cloud‑aware file manager  
-- **PyLambdaBatch** — AWS Lambda batch runner  
-- **PySecretCatcher** — Secret detection tool  
-
-These will be added as they’re completed.
-
----
-
-## 🔙 Back to Home 
+## 🔙 Back to Home
 - [Home](../index.md)
+
 ## Other Project Pages
 - [C++](cpp.md)
 - [Games](games.md)
