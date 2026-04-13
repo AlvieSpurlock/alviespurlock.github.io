@@ -182,7 +182,15 @@
       background: linear-gradient(135deg, #161630, #0d0d22);
       display: flex; align-items: center; justify-content: center; font-size: 2.5rem;
     }
-    .card-body { padding: 26px 28px 24px; flex: 1; display: flex; flex-direction: column; min-height: 360px; }
+     .card-body {
+      padding: 26px 28px 24px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;     /* ← forces top alignment */
+      justify-content: flex-start; /* ← prevents vertical centering */
+      min-height: 360px;
+    }
     .card-lang {
       font-family: var(--mono); font-size: 0.62rem;
       letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 10px;
