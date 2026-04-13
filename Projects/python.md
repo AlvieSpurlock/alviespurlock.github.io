@@ -34,14 +34,16 @@ Covers 23 domains and 1,364 callable functions across pure mathematics and physi
 
 ---
 
-## **[PyError](https://github.com/AlvieSpurlock/PyError)**
-A structured error‑logging tool that captures exceptions with timestamps, file paths, methods, and line numbers.
+## **[SocialsAgent](https://github.com/AlvieSpurlock/SocialsAgent)**
+An intelligent social automation tool that creates, optimizes, and posts content across multiple platforms with minimal input.
+
+<img src="../Images/SA_UI.jpg" width="400"><br><br>
 
 **Features**
-- Automatic exception capture
-- Clean, readable log formatting
-- Timestamped entries
-- Perfect for debugging larger systems
+- Multi‑platform auto‑posting and listing
+- ML‑generated captions, tags, and descriptions
+- Engagement‑aware scheduling and optimization
+- Perfect for streamlining content pipelines and reducing manual posting
 
 ---
 
