@@ -35,15 +35,15 @@ Covers 23 domains and 1,364 callable functions across pure mathematics and physi
 ---
 
 ## **[SocialsAgent](https://github.com/AlvieSpurlock/SocialsAgent)**
-An intelligent social automation tool that creates, optimizes, and posts content across multiple platforms with minimal input.
+An intelligent social automation tool that creates, optimizes, and posts content across multiple platforms with minimal input. All Open Source Code - Entirely Free to use.
 
 <img src="../Images/SA_UI.jpg" width="400"><br><br>
 
 **Features**
 - Multi‑platform auto‑posting and listing
-- ML‑generated captions, tags, and descriptions
+- ML‑trained AI generated captions, tags, and descriptions
 - Engagement‑aware scheduling and optimization
-- Perfect for streamlining content pipelines and reducing manual posting
+*Perfect for streamlining content pipelines and reducing manual posting*
 
 ---
 
