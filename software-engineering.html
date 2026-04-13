@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software Engineering — Alvie Spurlock</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700;800;900&family=Source+Sans+3:wght@300;400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #08081a;
+      --surface:   #0f0f28;
+      --border:    rgba(255,255,255,0.08);
+      --text:      #e8e8f4;
+      --muted:     #7a7a9a;
+      --accent:    #4ecdc4;
+      --accent-dim:    rgba(78,205,196,0.12);
+      --accent-border: rgba(78,205,196,0.28);
+      --cpp-color: #a78bfa;
+      --cpp-dim:   rgba(167,139,250,0.1);
+      --cpp-border:rgba(167,139,250,0.28);
+      --py-color:  #4ecdc4;
+      --py-dim:    rgba(78,205,196,0.1);
+      --py-border: rgba(78,205,196,0.28);
+      --mono:      'Share Tech Mono', monospace;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      background-image:
+        radial-gradient(ellipse 70% 50% at 0% -5%, rgba(40,30,100,0.35) 0%, transparent 55%),
+        radial-gradient(ellipse 60% 40% at 100% 105%, rgba(20,60,80,0.4) 0%, transparent 60%);
+      background-attachment: fixed;
+      color: var(--text);
+      font-family: 'Source Sans 3', sans-serif;
+      min-height: 100vh;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 48px;
+      background: rgba(8,8,26,0.88);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-brand {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 800; font-size: 1.05rem;
+      letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--text); text-decoration: none;
+    }
+    .nav-links { display: flex; gap: 36px; align-items: center; }
+    .nav-links a {
+      font-family: 'Exo 2', sans-serif; font-size: 0.78rem;
+      font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--muted); text-decoration: none; transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--text); }
+    .nav-links a.active { color: var(--accent); }
+    .nav-links a.game-link { color: #ff7c3a; }
+    .nav-links a.game-link:hover { color: #ffa06a; }
+
+    /* ── PAGE HEADER ── */
+    .page-header {
+      padding: 80px 48px 60px;
+      max-width: 1160px;
+      margin: 0 auto;
+      animation: fadeUp 0.6s ease both;
+    }
+    .page-tag {
+      font-family: var(--mono);
+      font-size: 0.7rem; letter-spacing: 0.22em; text-transform: uppercase;
+      color: var(--accent); margin-bottom: 18px;
+      display: flex; align-items: center; gap: 12px;
+    }
+    .page-tag::after {
+      content: ''; display: block; height: 1px; width: 60px;
+      background: var(--accent-border);
+    }
+    .page-header h1 {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 900; font-size: clamp(2.4rem, 6vw, 4rem);
+      letter-spacing: -0.02em; color: var(--text); line-height: 1.05; margin-bottom: 20px;
+    }
+    .page-header .lead {
+      font-size: 1.05rem; color: #9090b4; max-width: 600px; line-height: 1.75;
+    }
+
+    /* ── STAT BAR ── */
+    .stat-bar {
+      max-width: 1160px; margin: 0 auto 50px; padding: 0 48px;
+      display: flex; gap: 0;
+      animation: fadeUp 0.6s 0.1s ease both;
+    }
+    .stat {
+      flex: 1;
+      padding: 22px 28px;
+      border: 1px solid var(--border);
+      border-right: none;
+      background: var(--surface);
+    }
+    .stat:first-child { border-radius: 2px 0 0 2px; }
+    .stat:last-child { border-right: 1px solid var(--border); border-radius: 0 2px 2px 0; }
+    .stat-value {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 800; font-size: 1.8rem; color: var(--text); line-height: 1;
+      margin-bottom: 6px;
+    }
+    .stat-label {
+      font-family: var(--mono); font-size: 0.65rem;
+      letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted);
+    }
+
+    /* ── SECTION LABELS ── */
+    .section-label {
+      font-family: var(--mono); font-size: 0.68rem;
+      letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted);
+      padding: 0 48px; max-width: 1160px; margin: 0 auto 28px;
+      display: flex; align-items: center; gap: 14px;
+    }
+    .section-label .tag {
+      padding: 3px 10px; border-radius: 2px;
+      font-size: 0.65rem; font-family: var(--mono);
+    }
+    .section-label .tag.cpp {
+      color: var(--cpp-color); border: 1px solid var(--cpp-border); background: var(--cpp-dim);
+    }
+    .section-label .tag.py {
+      color: var(--py-color); border: 1px solid var(--py-border); background: var(--py-dim);
+    }
+    .section-label .tag.future {
+      color: var(--muted); border: 1px solid var(--border); background: rgba(255,255,255,0.03);
+    }
+    .section-label::after {
+      content: ''; flex: 1; height: 1px; background: var(--border);
+    }
+
+    /* ── PROJECTS GRID ── */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 20px;
+      max-width: 1160px; margin: 0 auto;
+      padding: 0 48px 60px;
+      animation: fadeUp 0.6s 0.15s ease both;
+    }
+
+    /* ── PROJECT CARD ── */
+    .card {
+      border: 1px solid var(--border); border-radius: 2px;
+      background: var(--surface); overflow: hidden;
+      display: flex; flex-direction: column;
+      transition: transform 0.22s, border-color 0.22s, box-shadow 0.22s;
+    }
+    .card.cpp:hover {
+      transform: translateY(-3px);
+      border-color: var(--cpp-border);
+      box-shadow: 0 10px 40px rgba(167,139,250,0.1);
+    }
+    .card.py:hover {
+      transform: translateY(-3px);
+      border-color: var(--py-border);
+      box-shadow: 0 10px 40px rgba(78,205,196,0.1);
+    }
+    .card-img {
+      width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block;
+      filter: brightness(0.85); transition: filter 0.22s;
+    }
+    .card:hover .card-img { filter: brightness(1); }
+    .card-img-placeholder {
+      width: 100%; aspect-ratio: 16/9;
+      background: linear-gradient(135deg, #161630, #0d0d22);
+      display: flex; align-items: center; justify-content: center; font-size: 2.5rem;
+    }
+    .card-body { padding: 26px 28px 24px; flex: 1; display: flex; flex-direction: column; }
+    .card-lang {
+      font-family: var(--mono); font-size: 0.62rem;
+      letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 10px;
+    }
+    .card-lang.cpp { color: var(--cpp-color); }
+    .card-lang.py  { color: var(--py-color); }
+    .card h2 {
+      font-family: 'Exo 2', sans-serif; font-weight: 800;
+      font-size: 1.25rem; letter-spacing: -0.01em;
+      color: var(--text); margin-bottom: 12px; line-height: 1.2;
+    }
+    .card p {
+      font-size: 0.9rem; color: #8888ac; line-height: 1.7;
+      flex: 1; margin-bottom: 16px;
+    }
+    .highlights {
+      list-style: none; margin-bottom: 18px; display: flex; flex-direction: column; gap: 6px;
+    }
+    .highlights li {
+      font-size: 0.83rem; color: #9898b8; line-height: 1.5;
+      display: flex; gap: 8px; align-items: flex-start;
+    }
+    .highlights li::before {
+      content: '›'; font-family: var(--mono);
+      flex-shrink: 0; margin-top: 1px;
+    }
+    .card.cpp .highlights li::before { color: var(--cpp-color); }
+    .card.py  .highlights li::before { color: var(--py-color); }
+    .card-tags {
+      display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px;
+    }
+    .tag-chip {
+      font-family: var(--mono); font-size: 0.63rem; letter-spacing: 0.1em;
+      padding: 3px 9px; border-radius: 2px;
+      background: rgba(255,255,255,0.04); border: 1px solid var(--border); color: var(--muted);
+    }
+    .card-links { display: flex; gap: 10px; }
+    .card-link {
+      font-family: 'Exo 2', sans-serif; font-size: 0.72rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none;
+      padding: 8px 18px; border-radius: 2px; transition: all 0.18s;
+    }
+    .card-link.cpp-btn {
+      background: var(--cpp-dim); color: var(--cpp-color); border: 1px solid var(--cpp-border);
+    }
+    .card-link.cpp-btn:hover { background: rgba(167,139,250,0.2); }
+    .card-link.py-btn {
+      background: var(--py-dim); color: var(--py-color); border: 1px solid var(--py-border);
+    }
+    .card-link.py-btn:hover { background: rgba(78,205,196,0.2); }
+
+    /* ── UTILITY CARDS (small) ── */
+    .util-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 14px; max-width: 1160px; margin: 0 auto; padding: 0 48px 60px;
+      animation: fadeUp 0.6s 0.25s ease both;
+    }
+    .util-card {
+      border: 1px solid var(--border); border-radius: 2px;
+      padding: 22px 22px 20px; background: rgba(15,15,40,0.5);
+      display: flex; flex-direction: column; gap: 8px;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .util-card:hover { border-color: rgba(255,255,255,0.15); transform: translateY(-2px); }
+    .util-lang {
+      font-family: var(--mono); font-size: 0.6rem;
+      letter-spacing: 0.18em; text-transform: uppercase;
+    }
+    .util-lang.py { color: var(--py-color); }
+    .util-card h3 {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 700; font-size: 1rem; color: var(--text);
+    }
+    .util-card p { font-size: 0.82rem; color: #72728a; line-height: 1.6; }
+    .util-card a {
+      font-family: 'Exo 2', sans-serif; font-size: 0.68rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      text-decoration: none; color: var(--muted); transition: color 0.18s; margin-top: auto;
+    }
+    .util-card a:hover { color: var(--text); }
+
+    /* ── FUTURE SECTION ── */
+    .future-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 14px; max-width: 1160px; margin: 0 auto; padding: 0 48px 100px;
+      animation: fadeUp 0.6s 0.3s ease both;
+    }
+    .future-item {
+      border: 1px dashed rgba(255,255,255,0.1); border-radius: 2px;
+      padding: 18px 20px; opacity: 0.7;
+    }
+    .future-item h4 {
+      font-family: 'Exo 2', sans-serif; font-weight: 700;
+      font-size: 0.9rem; color: var(--text); margin-bottom: 6px;
+    }
+    .future-item p { font-size: 0.8rem; color: var(--muted); line-height: 1.6; }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border); padding: 28px 48px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    footer p { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); letter-spacing: 0.1em; }
+    footer a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    footer a:hover { color: var(--text); }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 768px) {
+      nav, .page-header, .stat-bar, .section-label, .projects-grid,
+      .util-grid, .future-grid, footer { padding-left: 24px; padding-right: 24px; }
+      .stat-bar { flex-wrap: wrap; }
+      .stat { flex: 1 1 45%; border-right: 1px solid var(--border); }
+      .projects-grid, .util-grid, .future-grid { grid-template-columns: 1fr; }
+      footer { flex-direction: column; gap: 12px; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-brand">Alvie Spurlock</a>
+    <div class="nav-links">
+      <a href="game-development.html" class="game-link">Game Dev</a>
+      <a href="software-engineering.html" class="active">Software Eng</a>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <p class="page-tag">Discipline 02</p>
+    <h1>Software Engineering</h1>
+    <p class="lead">
+      Developer tools, simulation engines, and utility libraries written in C++ and Python.
+      Built for clarity, extensibility, and real problems — not for school.
+    </p>
+  </div>
+
+  <div class="stat-bar">
+    <div class="stat">
+      <div class="stat-value">6+</div>
+      <div class="stat-label">Active Projects</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">1,364</div>
+      <div class="stat-label">MathCore Functions</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">225k</div>
+      <div class="stat-label">Monte Carlo Trials</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">C++ · Py</div>
+      <div class="stat-label">Primary Languages</div>
+    </div>
+  </div>
+
+  <!-- C++ PROJECTS -->
+  <div class="section-label">
+    <span class="tag cpp">C++</span> Systems, simulators & desktop tools
+  </div>
+
+  <div class="projects-grid">
+
+    <!-- TTRPG Combat Simulator -->
+    <div class="card cpp">
+      <img class="card-img" src="Images/MC.png" alt="TTRPG Combat Simulator" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="card-img-placeholder" style="display:none">🎲</div>
+      <div class="card-body">
+        <p class="card-lang cpp">C++ · wxWidgets · MCI/winmm</p>
+        <h2>TTRPG Combat Balance Simulator</h2>
+        <p>
+          A D&D-themed desktop simulator running 225,000 Monte Carlo trials to estimate
+          party win probability against any enemy configuration. Full GUI, audio engine,
+          sprite VFX, and save/load persistence.
+        </p>
+        <ul class="highlights">
+          <li>150 batches × 1,500 combats per run, threaded off the UI</li>
+          <li>4d6-drop-lowest character creation with per-stat fire animations</li>
+          <li>MCI/winmm audio — looping music, pooled SFX aliases</li>
+          <li>Full save/load to %AppData% via structured CSV</li>
+        </ul>
+        <div class="card-tags">
+          <span class="tag-chip">Monte Carlo</span>
+          <span class="tag-chip">wxWidgets GUI</span>
+          <span class="tag-chip">Simulation</span>
+          <span class="tag-chip">D&D</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/AlvieSpurlock/TTRPGCombatBalanceSimulator" class="card-link cpp-btn" target="_blank">GitHub →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Asset Logger -->
+    <div class="card cpp">
+      <img class="card-img" src="Images/AL.png" alt="Asset Logger" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="card-img-placeholder" style="display:none">📋</div>
+      <div class="card-body">
+        <p class="card-lang cpp">C++ · wxWidgets</p>
+        <h2>Asset Logger</h2>
+        <p>
+          A desktop tool for indie developers preparing Steam submissions and managing
+          asset inventory. Guides through structured asset entry and exports a clean,
+          Steam-ready CSV.
+        </p>
+        <ul class="highlights">
+          <li>Form-driven GUI with live validation feedback</li>
+          <li>Fields: location, purpose, author, platform, license</li>
+          <li>Overwrite protection and multi-asset session support</li>
+          <li>Automatic Steam-ready CSV formatting</li>
+        </ul>
+        <div class="card-tags">
+          <span class="tag-chip">wxWidgets GUI</span>
+          <span class="tag-chip">Indie Dev Tool</span>
+          <span class="tag-chip">Steam</span>
+          <span class="tag-chip">CSV Export</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/AlvieSpurlock/AssetLogger" class="card-link cpp-btn" target="_blank">GitHub →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Calculator -->
+    <div class="card cpp">
+      <div class="card-img-placeholder">🧮</div>
+      <div class="card-body">
+        <p class="card-lang cpp">C++ · wxWidgets</p>
+        <h2>Calculator</h2>
+        <p>
+          A desktop calculator built on a custom C++ expression engine with a full wxWidgets GUI.
+          Explores event-driven UI design, input parsing, and operator precedence as a proper
+          standalone application.
+        </p>
+        <ul class="highlights">
+          <li>Custom expression parser with correct operator precedence</li>
+          <li>Keyboard and button input via wxWidgets Bind()</li>
+          <li>Foundation for future scientific and programmer modes</li>
+        </ul>
+        <div class="card-tags">
+          <span class="tag-chip">wxWidgets</span>
+          <span class="tag-chip">Expression Parser</span>
+          <span class="tag-chip">Event-Driven</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/AlvieSpurlock/Calculator_CPP" class="card-link cpp-btn" target="_blank">GitHub →</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- PYTHON PROJECTS -->
+  <div class="section-label">
+    <span class="tag py">Python</span> Libraries, tools & automation
+  </div>
+
+  <div class="projects-grid">
+
+    <!-- MathCore -->
+    <div class="card py">
+      <img class="card-img" src="Images/P_MC.png" alt="MathCore" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="card-img-placeholder" style="display:none">∑</div>
+      <div class="card-body">
+        <p class="card-lang py">Python · Tkinter · Pillow</p>
+        <h2>MathCore</h2>
+        <p>
+          A modular math computation library covering 23 domains and 1,364 callable functions —
+          and a generative art engine that turns every calculation into a unique 3000×3000px artwork.
+        </p>
+        <ul class="highlights">
+          <li>23 modules: Algebra, Calculus, Topology, Physics, and more</li>
+          <li>Generative art maps function class and results to visual parameters</li>
+          <li>8 visual profiles, rarity system from Common to Legendary</li>
+          <li>Full Tkinter UI with searchable sidebar and session history</li>
+        </ul>
+        <div class="card-tags">
+          <span class="tag-chip">1,364 Functions</span>
+          <span class="tag-chip">Generative Art</span>
+          <span class="tag-chip">23 Modules</span>
+          <span class="tag-chip">Tkinter</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/AlvieSpurlock/MathCore" class="card-link py-btn" target="_blank">GitHub →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- SocialsAgent -->
+    <div class="card py">
+      <img class="card-img" src="Images/SA_UI.jpg" alt="SocialsAgent" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="card-img-placeholder" style="display:none">📡</div>
+      <div class="card-body">
+        <p class="card-lang py">Python · ML · Open Source</p>
+        <h2>SocialsAgent</h2>
+        <p>
+          An intelligent social automation tool that creates, optimizes, and posts content across
+          multiple platforms with minimal input. Entirely free and open source.
+        </p>
+        <ul class="highlights">
+          <li>Multi-platform auto-posting and listing</li>
+          <li>ML-trained AI-generated captions, tags, and descriptions</li>
+          <li>Engagement-aware scheduling and optimization</li>
+        </ul>
+        <div class="card-tags">
+          <span class="tag-chip">ML / AI</span>
+          <span class="tag-chip">Automation</span>
+          <span class="tag-chip">Multi-Platform</span>
+          <span class="tag-chip">Open Source</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/AlvieSpurlock/SocialsAgent" class="card-link py-btn" target="_blank">GitHub →</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- PYTHON UTILITIES -->
+  <div class="section-label">
+    <span class="tag py">Python Utilities</span> Lightweight standalone tools
+  </div>
+
+  <div class="util-grid">
+    <div class="util-card">
+      <p class="util-lang py">Python</p>
+      <h3>PyCommand</h3>
+      <p>A lightweight command routing system. Clean, simple, and built for extensibility.</p>
+      <a href="https://github.com/AlvieSpurlock/PyCommand" target="_blank">GitHub →</a>
+    </div>
+    <div class="util-card">
+      <p class="util-lang py">Python</p>
+      <h3>PyError</h3>
+      <p>Structured error-logging that captures exceptions with timestamps, file paths, and line numbers.</p>
+      <a href="https://github.com/AlvieSpurlock/PyError" target="_blank">GitHub →</a>
+    </div>
+  </div>
+
+  <!-- FUTURE / PLANNED -->
+  <div class="section-label">
+    <span class="tag future">Planned</span> Upcoming C++ projects
+  </div>
+
+  <div class="future-grid">
+    <div class="future-item">
+      <h4>File I/O Helper</h4>
+      <p>Heavily simplified File I/O operations in C++.</p>
+    </div>
+    <div class="future-item">
+      <h4>cRNG</h4>
+      <p>RNG from simple dice rolls to a full Monte Carlo framework.</p>
+    </div>
+    <div class="future-item">
+      <h4>cPhysics</h4>
+      <p>Physics as easy as a few method calls.</p>
+    </div>
+    <div class="future-item">
+      <h4>RPG Tool</h4>
+      <p>Inventory, dialogue, quests, and AI templates as a reusable framework.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p><a href="index.html">← Back to Portfolio</a></p>
+    <p><a href="https://github.com/AlvieSpurlock" target="_blank">github.com/AlvieSpurlock</a></p>
+  </footer>
+
+</body>
+</html>
