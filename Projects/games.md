@@ -12,7 +12,7 @@
 <br>
 
 # 🎮 Game Projects
-A collection of prototypes and gameplay experiments. Most Importantly, Shipped Games!
+A collection of prototypes and gameplay experiments. Most Importantly, Shipped Games!<br>
 Each project explores mechanics, systems, or player interaction in a focused, iterative way.
 
 ---
