@@ -20,6 +20,8 @@ This page will grow as I continue building new tools.
 A modular mathematical computation library and generative art engine for Python.  
 Covers 23 domains and 1,364 callable functions across pure mathematics and physics — and uses every calculation as direct input to a deterministic generative art system that turns each result into a unique, reproducible 3000×3000px artwork.
 
+<img src="../Images/P_MC.png" width="400"><br><br>
+
 **Features**
 - 23 modules spanning Algebra, Calculus, Trigonometry, Statistics, Probability, Combinatorics, Topology, Linear Algebra, Differential Geometry, Abstract Algebra, Algebraic Geometry, Discrete Math, and a full Physics suite
 - 1,364 callable functions — all documented, input-validated, and dependency-free
