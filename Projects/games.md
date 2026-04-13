@@ -57,7 +57,7 @@ It is also localized to 12 Languages(including English).<br>
   </div>
 </div>
 
-Scorchlet was also covered by Local News in The Odessa American!
+Scorchlet was also covered by Local News in The Odessa American!<br>
 [Link!](https://www.oaoa.com/local-news/local-game-designer-builds-dragon-simulator-game/)
 ---
 
