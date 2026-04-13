@@ -169,8 +169,12 @@
       box-shadow: 0 10px 40px rgba(78,205,196,0.1);
     }
     .card-img {
-      width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block;
-      filter: brightness(0.85); transition: filter 0.22s;
+      width: 100%;
+      height: 180px;          /* ← forces consistent height */
+      object-fit: cover;      /* ← crops images cleanly */
+      display: block;
+      filter: brightness(0.75);
+      transition: filter 0.22s;
     }
     .card:hover .card-img { filter: brightness(1); }
     .card-img-placeholder {
