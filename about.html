@@ -4,11 +4,100 @@
     <meta charset="UTF-8">
     <title>About Me – Alvie Spurlock</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* --- GLOBAL THEME --- */
+        body {
+            margin: 0;
+            padding: 0;
+            background: #0d0d0d;
+            color: #e6e6e6;
+            font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* --- NAVIGATION --- */
+        nav {
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            background: #0d0d0d;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: #bfbfbf;
+            text-decoration: none;
+            margin: 0 18px;
+            font-size: 0.95rem;
+            letter-spacing: 0.5px;
+            transition: color 0.2s ease;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+        }
+
+        /* --- HERO SECTION --- */
+        header {
+            text-align: center;
+            padding: 80px 20px 40px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        header h2 {
+            margin-top: 10px;
+            font-size: 1.1rem;
+            font-weight: 300;
+            color: #bfbfbf;
+            letter-spacing: 2px;
+        }
+
+        .tagline {
+            margin-top: 20px;
+            font-size: 1.1rem;
+            color: #d0d0d0;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0.85;
+        }
+
+        /* --- CONTENT SECTIONS --- */
+        section {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        section h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 6px;
+        }
+    </style>
 </head>
 
 <body>
 
-    <!-- Top Navigation -->
+    <!-- Navigation -->
     <nav>
         <a href="index.html">Home</a>
         <a href="python.html">Python Projects</a>
