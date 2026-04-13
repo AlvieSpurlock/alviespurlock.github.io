@@ -115,6 +115,44 @@
         margin: 0 auto;
         line-height: 1.75;
       }
+      /* Unified content spacing for About page */
+      .content-wrapper {
+        max-width: 900px;
+        margin: 0 auto 120px;
+        padding: 0 48px;
+        animation: fadeUp 0.7s 0.25s ease both;
+      }
+      
+      .content-block {
+        margin-bottom: 70px;
+      }
+      
+      .content-block h3 {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 700;
+        font-size: 1.3rem;
+        letter-spacing: 0.04em;
+        margin-bottom: 18px;
+        color: var(--text);
+      }
+      
+      .content-block p,
+      .content-block ul {
+        color: #b0b0cc;
+        font-size: 1.05rem;
+        line-height: 1.75;
+      }
+      
+      .content-block ul {
+        padding-left: 22px;
+      }
+      
+      @media (max-width: 768px) {
+        .content-wrapper {
+          padding: 0 24px;
+        }
+      }
+
   
       /* ── PORTALS ── */
       .portals-section {
@@ -344,7 +382,7 @@
       </div>
     </nav>
     
-    <!-- Hero Section -->
+  <!-- Hero Section -->
     <header class="hero">
       <div class="hero-label">Portfolio</div>
       <h1>Alvie Spurlock</h1>
@@ -357,10 +395,9 @@
       </p>
     </header>
     
-    <!-- CONTENT WRAPPER (adds spacing + max width) -->
+    <!-- CONTENT WRAPPER -->
     <div class="content-wrapper">
     
-      <!-- About Section -->
       <section class="content-block">
         <h3>About Me</h3>
         <p>
@@ -371,7 +408,6 @@
         </p>
       </section>
     
-      <!-- Why I Do What I Do -->
       <section class="content-block">
         <h3>Why I Do What I Do</h3>
         <p>
@@ -382,7 +418,6 @@
         </p>
       </section>
     
-      <!-- Education -->
       <section class="content-block">
         <h3>Education & Recognition</h3>
         <p>
@@ -397,7 +432,6 @@
         </p>
       </section>
     
-      <!-- Portfolio Overview -->
       <section class="content-block">
         <h3>What You’ll Find in This Portfolio</h3>
         <ul>
@@ -408,7 +442,6 @@
         </ul>
       </section>
     
-      <!-- Philosophy -->
       <section class="content-block">
         <h3>My Philosophy</h3>
         <ul>
@@ -421,6 +454,7 @@
       </section>
     
     </div>
+
 
 </body>
 </html>
